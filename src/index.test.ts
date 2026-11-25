@@ -211,7 +211,7 @@ describe("tool rows", () => {
 				context,
 			);
 		}
-		return component.render(200);
+		return [...component.render(200)];
 	}
 
 	const search: SearchDetails = { kind: "search", query: "q", results: [{ title: "Hit", url: "https://www.example.com/a", date: "2026-06-01" }] };
