@@ -1,6 +1,6 @@
 {
 	"name": "@aoshizuku/pi-dsweb",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"private": false,
 	"type": "module",
 	"description": "web_search / web_fetch tools for pi backed by DeepSeek's official Search & Fetch API",
