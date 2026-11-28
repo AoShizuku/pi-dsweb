@@ -1,0 +1,15 @@
+# 推送 v<版本> tag 时发布到 npm（./ws.sh release <插件> 负责打 tag）。
+# npm 的可信发布绑定的是本文件名 release.yml，改名要同步改 npm 上的设置。
+name: release
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  publish:
+    uses: AoShizuku/pi-shizuku/.github/workflows/npm-release.yml@main
