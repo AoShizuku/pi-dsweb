@@ -1,0 +1,2 @@
+# 仓库里一律 LF，Windows 上 checkout 出来也保持 LF
+* text=auto eol=lf
